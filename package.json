@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "npx jest",
+  "test": ""test": "node ./node_modules/jest/bin/jest.js"",
   "lint": "echo Lint Successful",
   "build": "mkdir -p dist && cp app.js dist/"
 }
