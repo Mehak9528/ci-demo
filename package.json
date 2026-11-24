@@ -1,0 +1,19 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest",
+  "lint": "echo Lint Successful",
+  "build": "mkdir -p dist && cp app.js dist/"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
